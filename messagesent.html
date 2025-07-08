@@ -1,0 +1,176 @@
+<html>
+
+    <head>
+        <title>RESERVATIONS | Me Gusta Beach Restaurant</title>
+        <link rel="stylesheet" href="style07.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <link rel="icon" type="image/png" href="images/logo.png"/>
+    </head>
+
+</html>
+
+<body>
+    <section id="banner">
+        <a href="index.html"><img src="images/logo.png" class="logo"></a>
+        <div class="banner-text">
+            <br>
+            <h1>Reservations</h1>
+            <!-- <br>
+            <p></p>
+            <div class="banner-btn">
+                <a href="#reservation"><span></span>Read More</a>
+                <a href="#findus"><span></span>Find Us</a>
+            </div> -->
+        </div>
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="reservations.html">RESERVATIONS</a></li>
+                <li><a href="index.html#findus">FIND US</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menuBtn">
+        <img src="images/menu.png" id="menu">
+    </div>
+
+    
+<!--reservations-->
+
+<section id="reservation">
+    <div class="tittle-text">
+        <p>Message Sent</p>
+        </div>    
+        <div class="reservation">
+            <form action="index.html">
+                <p>Thank you for your message. We will contact you soon!</p><br><br>
+                <p><button type="submit" class="form-btn red-btn">Return to Home Page</button></p>
+            </form>
+    </div>
+
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        Email.send({
+            Host : "smtp.outlook.com",
+            Username : "melakisnikos@outlook.com",
+            Password : "password",
+            To : 'nick_melakis@yahoo.gr',
+            From : "melakisnikos@outlook.com",
+            Subject : "New Website Message",
+            Body : "Name: "+document.getElementById("name").value
+                +  "<br> Name: "+document.getElementById("email").value
+                +  "<br> Date: "+document.getElementById("date").value
+                +  "<br> Number: "+document.getElementById("number").value
+                +  "<br> Message: "+document.getElementById("message").value
+        }).then(
+    message => alert("Thank you for your message.")
+    );
+    </script> -->
+
+
+<!-- footer -->
+<section id="findus">
+    <img src="images/logo.png" class="footer-img">
+    <div class="tittle-text">
+        <p>Find Us</p>
+        <h1></h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Hours</h1>
+            <p><i class="fa fa-calendar"></i>Monday to Sunday</p>
+            <p><i class="fa fa-clock-o"></i> 09:00am to 12:00pm</p>
+        </div>
+        <div class="footer-right">
+            <h1>Get in Touch</h1>
+            <p><a href="https://www.google.com/maps/dir//me+gusta+beach+restaurant/@35.5182306,23.8772044,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x149c62984d137279:0xee107659043c5e01!2m2!1d23.9272533!2d35.5194897" 
+                target="_blank">Agia Marina, Chania Greece<i class="fa fa-map-marker"></i></a></p>
+            <p><a href="mailto:megustachania@gmail.com" target="_blank">megustachania@gmail.com<i class="fa fa-envelope"></i></a></p>
+            <p><a href="tel:+306937320598" target="_blank">+30 693 7320598<i class="fa fa-phone"></i></a></p>
+        </div>
+    </div>
+
+    <div class="social-links">
+        <a href="https://www.google.com/maps/place/Me+Gusta+Beach+Bar+Restaurant/@35.5309668,23.8124224,11.5z/data=!4m5!3m4!1s0x0:0xee107659043c5e01!8m2!3d35.5201891!4d23.9270653" target="_blank"><i class="fa fa-google"></i></a>
+        <a href="https://www.facebook.com/megustabeach" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/megustabeachrestaurant/?hl=el" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.tripadvisor.com.gr/Restaurant_Review-g1049093-d6778216-Reviews-Me_Gusta_Beach_Restaurant-Agia_Marina_Chania_Prefecture_Crete.html" target="_blank"><i class="fa fa-tripadvisor"></i></a>
+        <p>Copyright &copy; 2021. Me Gusta Restaurant</p>
+        <p>Designed & Developed by <a href="https://www.nikolaosmelakis.com" target="_blank">Nikolaos Melakis</a></p>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var menuBtm = document.getElementById("menuBtm")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+
+        sideNav.style.right = "-250px";
+
+
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                menu.src = "images/close.png";
+            }
+            else {
+                sideNav.style.right = "-250px";
+                menu.src = "images/menu.png";
+            }
+        }
+    </script>
+
+
+    <script>
+        // Tabbed Menu
+        function openMenu(evt, menuName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("menu");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+            }
+            document.getElementById(menuName).style.display = "block";
+            evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+        }
+        document.getElementById("myLink").click();
+    </script>
+
+<script>
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});</script>
+
+</body>
+
+</html>
