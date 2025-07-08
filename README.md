@@ -6,7 +6,10 @@
 
 Visitors can browse curated dishes, view detailed menu categories, and securely book their dining experience through a responsive and modern interface.
 
-![blue-cloud-preview](https://github.com/user-attachments/assets/60778862-125b-425f-9f93-808d2fda3127)
+
+![me-gusta](https://github.com/user-attachments/assets/08769e8e-5a49-4b58-b1df-6f9ce3918470)
+
+
 
 
 ## Features 🚀
