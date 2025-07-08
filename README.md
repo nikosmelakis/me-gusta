@@ -7,8 +7,7 @@
 Visitors can browse curated dishes, view detailed menu categories, and securely book their dining experience through a responsive and modern interface.
 
 
-![me-gusta](https://github.com/user-attachments/assets/08769e8e-5a49-4b58-b1df-6f9ce3918470)
-
+![me-gusta-preview](https://github.com/user-attachments/assets/20032b95-806d-45f7-8946-3e3dd577ed57)
 
 
 
